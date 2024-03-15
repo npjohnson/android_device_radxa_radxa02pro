@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=radxa0
+export DEVICE=radxa02pro
 export DEVICE_COMMON=g12-common
 export VENDOR=radxa
 export VENDOR_COMMON=amlogic

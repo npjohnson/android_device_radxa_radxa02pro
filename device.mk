@@ -6,7 +6,7 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    RadxaZeroBluetoothOverlay \
+    RadxaZero2BluetoothOverlay \
     libbt-vendor
 
 ## Factory
