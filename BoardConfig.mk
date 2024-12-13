@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/radxa/radxa0
+DEVICE_PATH := device/radxa/radxa02pro
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_radxa0.txt
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_radxa02pro.txt
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := radxa0
+TARGET_BOOTLOADER_BOARD_NAME := radxa02pro
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905y2_radxa0
+TARGET_DTB_NAME := g12a_s905y2_radxa02pro
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
@@ -38,4 +38,4 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/g12-common/BoardConfigCommon.mk
+include device/amlogic/sm1-common/BoardConfigCommon.mk
