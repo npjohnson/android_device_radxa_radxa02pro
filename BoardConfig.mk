@@ -16,7 +16,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_BOOTLOADER_BOARD_NAME := radxa02pro
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905y2_radxa02pro
+TARGET_DTB_NAME := g12b_a311d_radxa02pro
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
